@@ -1,0 +1,75 @@
+.main{
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    text-align: center;
+}
+#child1,#child2,#child3{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+}
+.flag{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 120px 50px 90px;
+}
+img{
+    height: 120px;
+    width: 130px;
+}
+#child1{
+    background-image: linear-gradient(to bottom right,red, green,deeppink, yellow, blue);
+}
+#child2{
+    background-image: linear-gradient(orange 33.33%,white 33.33%,white 66.66%,green 66.66%);
+}
+#child3{
+    background-image: repeating-linear-gradient(red,blue,deeppink 33.33%);
+}
+.main1{
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    text-align: center;
+}
+#child4,#child5,#child6{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+}
+#child4{
+    background-image: radial-gradient(white,black);
+}
+#child5{
+    background-image: radial-gradient(circle,violet 10%,indigo 10%,indigo 20%,blue 20%,blue 30%,green 30%,green 40%,yellow 40%,yellow 50%,orange 50%,orange 60%,red 60%);
+}
+#child6{
+    background-image: repeating-radial-gradient(circle,black, white 3%);
+}
+.main2{
+    height: 500px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: black;
+    text-align: center;
+}
+#child7,#child8,#child9{
+    height: 400px;
+    width: 400px;
+    background-color: white;
+}
+#child7{
+    background-image: conic-gradient(red,cyan,deeppink,blue,yellow);
+}
+#child8{
+    background-image: conic-gradient(red 25%,deeppink 25%,deeppink 50%,blue 50%,blue 75%,yellow 75%);
+}
+#child9{
+    background-image: repeating-conic-gradient(black,white 5%);
+}
